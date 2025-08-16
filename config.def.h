@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Hack Nerd Font Mono:pixelsize=29:antialias=false:autohint=false:hinting=false";
-static int borderpx = 1;
+static int borderpx = 4;
 
 /*
  * What program is execed by st depends of these precedence rules:
