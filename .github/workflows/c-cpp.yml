@@ -16,7 +16,7 @@ jobs:
         sudo apt-get -y install libfontconfig1-dev libfreetype6 libfreetype-dev libx11-dev libxft-dev
     - name: make
       env:
-        CFLAGS: "-march=broadwell"
+        CFLAGS: "-O2 -march=broadwell"
       run: make
     - name: strip
       run: strip -s st
